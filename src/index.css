@@ -19,3 +19,27 @@ body {
 
 }
 
+.list-btn{
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid orange;
+  position: relative;
+  top: 65%;
+
+ padding: 0;
+ width: 414px;
+
+
+
+}
+
+li{
+  width: 45px;
+  height: 45px;
+  background-color: yellow;
+  border-radius: 50%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
