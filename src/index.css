@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+
+
+
+
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -7,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Overpass', sans-serif;
 }
 
 
@@ -19,12 +29,29 @@ body {
 
 }
 
+
+.star{
+  width: 50px;
+  height: 50px;
+  background-color: hsla(218, 5%, 45%, 0.242);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+ position: relative;
+ top: 30px;
+ 
+
+
+}
+
 .list-btn{
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid orange;
+ 
   position: relative;
-  top: 65%;
+  top: 28%;
 
  padding: 0;
  width: 414px;
@@ -33,13 +60,179 @@ body {
 
 }
 
-li{
+.listknapp{
   width: 45px;
   height: 45px;
-  background-color: yellow;
+  background-color:  hsla(218, 5%, 45%, 0.242);
   border-radius: 50%;
-  border: 1px solid red;
+
   display: flex;
   justify-content: center;
   align-items: center;
+  color:  hsl(217, 12%, 63%);
+  font-size: 15px;
+  transition: 0.1s;
+  
 }
+
+li:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+li.selected{
+  width: 45px;
+  height: 45px;
+  background-color:  white;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  hsl(217, 12%, 63%);
+  font-size: 15px;
+  
+}
+
+
+
+.btn{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30%;
+
+  
+}
+
+.btn-submit{
+  width: 380px;
+  height: 45px;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.btn-submit:hover{
+  background-color: white;
+  color:  hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  position: relative;
+  top: 20%;
+  padding-left:30px ;
+}
+
+.paragraph{
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  
+  position: relative;
+  top: 25%;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 40px;
+
+}
+
+.container2{
+  width: 414px;
+  height: 414px;
+  border-radius: 10px;
+  background-color:   hsl(213, 19%, 18%);
+
+}
+
+.container-hide{
+  display: none;
+}
+
+.tel-img{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 45px;
+}
+
+.small-text{
+ 
+  font-size: 15px;
+  width: 200px;
+  height: 18px;
+  border-radius: 12px;
+  background-color: hsla(218, 5%, 45%, 0.242);
+  color: hsl(25, 97%, 53%);
+  position: relative;
+  padding: 4px 7px;
+  top: 70px;
+  text-align: center;
+  margin: auto;
+
+  
+
+}
+
+.header2{
+  
+  margin: auto;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  position: relative;
+  top: 100px;
+  margin: auto;
+  display: flex;
+
+justify-content: center;
+  
+  
+  
+
+}
+
+.paragraph2{
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  
+  position: relative;
+  top: 27%;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.btn-return{
+  width: 380px;
+  height: 45px;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+
+ 
+ 
+}
+
+.btn-return:hover{
+  background-color: white;
+  color:  hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+
+
+
+
