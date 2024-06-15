@@ -12,11 +12,6 @@ function App() {
     setRanking(arg);
   };
 
-  const setZero = () => {
-    setSelected(0);
-    setRanking(0);
-  };
-
   const handleSubmit = () => {
     setIsSubmitted(true);
   };
@@ -27,10 +22,7 @@ function App() {
 
   return (
     <>
-      <div
-        className={!issubmitted ? "container" : "container-hide"}
-        onClick={setZero}
-      >
+      <div className={!issubmitted ? "container" : "container-hide"}>
         <div className="star">
           <img src={img1} alt="Star Icon" />
         </div>
