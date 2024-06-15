@@ -3,7 +3,7 @@ import img1 from "./Images/icon-star.svg";
 import img2 from "./Images/illustration-thank-you.svg";
 
 function App() {
-  const [selected, setSelected] = useState(false);
+  const [selected, setSelected] = useState(null);
   const [ranking, setRanking] = useState(0);
   const [issubmitted, setIsSubmitted] = useState(true);
 
@@ -18,6 +18,8 @@ function App() {
 
   const handleReturn = () => {
     setIsSubmitted(false);
+    setSelected(0);
+    setRanking(0);
   };
 
   return (
